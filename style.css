@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
-    --background-color: black;
+    --background-color: #28282B;
     --font-color: white;
 }
 
@@ -25,27 +25,32 @@ h1 {
 label {
     text-align: center;
     display: block;
-    font-size: larger;
-    padding: 1rem;
+    font-size: large;
+    padding: 2rem 0rem;
     color: var(--font-color);
 }
 
 input {
-    padding: 0.5rem;
-    width: 40%;
+    padding: 1rem;
+    width: 25%;
     font-size: larger;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #FDFBF9;
+    border-radius: 5px;
 }
 
 button {
     display: block;
-    margin: auto;
+    margin: 1rem auto;
     font-size: larger;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 15px;
     width: 11%;
     padding: 0.5rem;
     margin-top: 2rem;
-    background-color: blue;
+    color: #28282B;
+    background-color:#FDFBF9;
 }
 
 div {
