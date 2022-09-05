@@ -13,6 +13,10 @@ function submitHandler(){
     
     if(initial==='' || quantity==='' || current===''){
         showOutput(`Please fill out all the fields`);
+        outputBox.style.color='white';
+    }else if(Number(initial) < 0 || Number(quantity) < 0 || Number(current) < 0){
+        showOutput(`Please Enter positive values`);
+        outputBox.style.color='white';
     }else{
         initial = Number(initialPrice.value);
         quantity = Number(numberOfStocks.value);
